@@ -2,7 +2,7 @@
 public class DmvSimulater {
     public static void main(String[] args) throws InterruptedException {
 
-        int waitTime = (int)(100 * Math.random() + 1);
+        int waitTime = (int)(200 * Math.random() + 1);
 
         System.out.println("Your call number is " + waitTime + ". Please wait your turn patiently.");
 
@@ -12,7 +12,7 @@ public class DmvSimulater {
             
             System.out.println("Now serving: " + counter);
 
-            if (counter == 100){
+            if (counter == 200){
                 counter = 0;
 
             }
