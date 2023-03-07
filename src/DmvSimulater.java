@@ -19,7 +19,7 @@ public class DmvSimulater {
             Thread.sleep(100);
         }while (counter != waitTime);
 
-        System.out.println("Hello and welcome to the DMV. Can i please see your forms and required information");
+        System.out.println("Hello and welcome to the DMV. Can i please see your completed forms and required information?");
         System.out.println("Sorry this is not the correct information please come back when you have it all.");
 
     }
