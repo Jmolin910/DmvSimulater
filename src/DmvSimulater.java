@@ -27,7 +27,7 @@ public class DmvSimulater {
         else
         {
             System.out.println("Hello and welcome to the DMV. Can I please see your forms and required information?");
-            System.out.println("Don't care.");
+            System.out.println("Don't care. Sucks to be you hahahahahaha.");
         }
 
     }
